@@ -1,15 +1,18 @@
 .container{
     display: flex;
-    height: 200px;
-    width: 300px;
+    height: 400px;
+    width: 500px;
     background-color: aqua;
     border: 1px solid black;
     /* flex-direction: row-reverse; */
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-self:flex-start ;
 }
 .item{
     height: 100px;
     width: 100px;
     background-color: coral;
     border: 1px solid black;
+    
 }
